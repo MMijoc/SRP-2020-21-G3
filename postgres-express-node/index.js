@@ -72,6 +72,7 @@ function defineUserRules({ can }, user) {
         // can("read", "MedicalTest", {UseId: user.id});
         // can("update", "MedicalTest", {UseId: user.id});
         // can("delete", "MedicalTest", {UseId: user.id});
+
         can(["delete", "read", "update", "delete"],
          "User",
          ["username, password"],
@@ -83,6 +84,7 @@ function defineUserRules({ can }, user) {
         can(["delete", "read", "update", "delete"], "User", {
                 UserId : user.id,
         });
+        
 }
 
 function defineAnonymousRules({ can }, user) {}
