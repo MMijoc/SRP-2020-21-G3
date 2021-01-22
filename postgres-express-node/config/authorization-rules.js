@@ -1,5 +1,5 @@
 // In this app we use fixed/static permissions and rules.
-// Therfore, we will hardcode them; a more flexible approach
+// Therefore, we will hardcode them; a more flexible approach
 // would be to read permission/rules from a database.
 //
 // Source: https://github.com/stalniy/casl-examples/blob/master/packages/express-blog/src/modules/auth/abilities.js
